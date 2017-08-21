@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Remotes -->
+  <remote name="github"
+           fetch="https://github.com/" />
+
+  <remote name="gitlab"
+           fetch="https://gitlab.com/" />
+ 
+  <remote name="screwd"
+           fetch="https://github.com/ScrewdAOSP" />
+
+  <!-- Screw'd Repos -->
+  <project path="manifest" name="manifest" remote="screwd" revision="o" />
+  <project path="frameworks/base" name="frameworks_base" remote="screwd" revision="n7x" />
+
+  <project path="vendor/screwd" name="vendor_screwd" remote="screwd" revision="o" >
+     <copyfile src="build.sh" dest="rom-build.sh" />
+     <copyfile src="kernel_build.sh" dest="kernel-build.sh" />
+  </project>
+
+</manifest>
