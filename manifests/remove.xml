@@ -39,7 +39,10 @@
   <remove-project name="device/linaro/hikey" />
   <remove-project name="device/linaro/hikey-kernel" />
   <remove-project name="device/sample" />
+  <remove-project name="platform/bionic" />
   <remove-project name="platform/build" />
+  <remove-project name="platform/build/kati" />
+  <remove-project name="platform/build/soong" />
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/hardware/intel/audio_media" />
   <remove-project name="platform/hardware/intel/bootstub" />
