@@ -34,6 +34,9 @@
 
   <project path="frameworks/base" name="frameworks_base" remote="screwd" revision="o" />
 
+  <project path="packages/apps/ScrewShop" name="packages_apps_ScrewShop" remote="screwd" revision="o" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="screwd" revision="o" />
+
   <project path="vendor/screwd" name="vendor_screwd" remote="screwd" revision="o" >
      <copyfile src="build.sh" dest="rom-build.sh" />
      <copyfile src="kernel_build.sh" dest="kernel-build.sh" />
