@@ -40,6 +40,7 @@
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="screwd" revision="o"  />
 
   <project path="system/core" name="system_core" remote="screwd" revision="o" />
+  <project path="system/sepolicy" name="system_sepolicy" remote="screwd" revision="o" />
 
   <project path="vendor/screwd" name="vendor_screwd" remote="screwd" revision="o" >
      <copyfile src="build.sh" dest="rom-build.sh" />
