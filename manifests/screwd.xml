@@ -29,7 +29,7 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-
+  <project path="bootable/recovery" name="bootable_recovery" remote="screwd" revision="o" />
   <project path="bionic" name="bionic" remote="screwd" revision="o"/>
 
   <project path="frameworks/base" name="frameworks_base" remote="screwd" revision="o" />
