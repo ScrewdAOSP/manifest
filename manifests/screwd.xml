@@ -48,6 +48,8 @@
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="screwd" revision="o" />
 
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="screwd" revision="o"  />
+
+  <project path="packages/services/OmniJaws" name="packages_services_OmniJaws" remote="screwd" revision="o" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="screwd" revision="o" />
 
   <project path="system/core" name="system_core" remote="screwd" revision="o" />
