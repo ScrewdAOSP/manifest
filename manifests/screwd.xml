@@ -32,6 +32,8 @@
   <project path="bootable/recovery" name="bootable_recovery" remote="screwd" revision="o" />
   <project path="bionic" name="bionic" remote="screwd" revision="o"/>
 
+  <project path="device/huawei/angler" name="device_huawei_angler" remote="screwd" revision="o" />
+
   <project path="frameworks/base" name="frameworks_base" remote="screwd" revision="o" />
   <project path="frameworks/native" name="frameworks_native" remote="screwd" revision="o" />
 
