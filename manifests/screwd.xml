@@ -61,7 +61,8 @@
 
   <project path="system/core" name="system_core" remote="screwd" revision="o" />
   <project path="system/sepolicy" name="system_sepolicy" remote="screwd" revision="o" />
-
+  
+  <project path="vendor/extras" name="vendor_extras" remote="screwd" revision="o" />
   <project path="vendor/screwd" name="vendor_screwd" remote="screwd" revision="o" >
      <copyfile src="build.sh" dest="rom-build.sh" />
      <copyfile src="kernel_build.sh" dest="kernel-build.sh" />
