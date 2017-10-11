@@ -66,6 +66,7 @@
 
   <project path="system/core" name="system_core" remote="screwd" revision="o" />
   <project path="system/media" name="system_media" remote="screwd" revision="o" />
+  <project path="system/nfc" name="system_nfc" remote="screwd" revision="o" />
   <project path="system/sepolicy" name="system_sepolicy" remote="screwd" revision="o" />
   
   <project path="vendor/extras" name="vendor_extras" remote="screwd" revision="o" />
