@@ -33,7 +33,8 @@
   <project path="bionic" name="bionic" remote="screwd" revision="o"/>
 
   <project path="device/huawei/angler" name="device_huawei_angler" remote="screwd" revision="o" />
-
+  
+  <project path="frameworks/av" name="frameworks_base" remote="screwd" revision="o" />
   <project path="frameworks/base" name="frameworks_base" remote="screwd" revision="o" />
   <project path="frameworks/native" name="frameworks_native" remote="screwd" revision="o" />
 
@@ -63,6 +64,7 @@
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="screwd" revision="o" />
 
   <project path="system/core" name="system_core" remote="screwd" revision="o" />
+  <project path="system/media" name="system_media" remote="screwd" revision="o" />
   <project path="system/sepolicy" name="system_sepolicy" remote="screwd" revision="o" />
   
   <project path="vendor/extras" name="vendor_extras" remote="screwd" revision="o" />
