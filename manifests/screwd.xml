@@ -62,6 +62,7 @@
 
   <project path="packages/services/OmniJaws" name="packages_services_OmniJaws" remote="screwd" revision="o" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="screwd" revision="o" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="screwd" revision="o" />
 
   <project path="system/core" name="system_core" remote="screwd" revision="o" />
   <project path="system/media" name="system_media" remote="screwd" revision="o" />
