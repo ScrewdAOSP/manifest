@@ -34,7 +34,7 @@
 
   <project path="device/huawei/angler" name="device_huawei_angler" remote="screwd" revision="o" />
   
-  <project path="frameworks/av" name="frameworks_base" remote="screwd" revision="o" />
+  <project path="frameworks/av" name="frameworks_av" remote="screwd" revision="o" />
   <project path="frameworks/base" name="frameworks_base" remote="screwd" revision="o" />
   <project path="frameworks/native" name="frameworks_native" remote="screwd" revision="o" />
 
