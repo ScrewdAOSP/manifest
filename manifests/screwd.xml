@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Remotes -->
+  <remote name="github"
+           fetch="https://github.com/" />
+
+  <remote name="gitlab"
+           fetch="https://gitlab.com/" />
+ 
+  <remote name="screwd"
+           fetch="https://github.com/ScrewdAOSP" />
+
+  <!-- Screw'd Repos -->
+  <project path="manifest" name="manifest" remote="screwd" revision="o-caf" />
+
+  <project path="build/make" name="build" remote="screwd" revision="o" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+
+  <project path="build/kati" name="build_kati" remote="screwd" revision="o" />
+  <project path="build/soong" name="build_soong" remote="screwd" revision="o" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+  <project path="bootable/recovery" name="bootable_recovery" remote="screwd" revision="o" />
+  <project path="bionic" name="bionic" remote="screwd" revision="o-caf"/>
+
+  <project path="device/oneplus/cheeseburger" name="device_oneplus_cheeseburger" remote="screwd" revision="o-caf" />
+  <project path="device/oneplus/oneplus3" name="device_oneplus_oneplus3" remote="screwd" revision="o-caf" />
+
+  <project path="device/qcom/common" name="device_qcom_common" remote="screwd" revision="o-caf" />
+  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="screwd" revision="o-caf" />
+
+  <project path="external/ebtables" name="external_ebtables" remote="screwd" revision="o-caf" />
+  <project path="external/fuse" name="external_fuse" remote="screwd" revision="o-caf" />
+  <project path="external/htop" name="external_htop" remote="screwd" revision="o-caf" />
+  <project path="external/libncurses" name="external_libncurses" remote="screwd" revision="o-caf" />
+  <project path="external/libnetfilter_conntrack" name="external_libnetfilter_conntrack" remote="screwd" revision="o-caf" />
+  <project path="external/nano" name="external_nano" remote="screwd" revision="o-caf" />
+  <project path="external/powertop" name="external_powertop" remote="screwd" revision="o-caf" />
+  <project path="external/selinux" name="external_selinux" remote="screwd" revision="o-caf" />
+  <project path="external/tinycompress" name="external_tinycompress" remote="screwd" revision="o-caf" />
+  <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="screwd" revision="o-caf" />
+
+  <project path="frameworks/av" name="frameworks_av" remote="screwd" revision="o-caf" />
+  <project path="frameworks/base" name="frameworks_base" remote="screwd" revision="o" />
+  <project path="frameworks/native" name="frameworks_native" remote="screwd" revision="o-caf" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="screwd" revision="o-caf" />
+
+  <project path="hardware/interfaces" name="hardware_interfaces" remote="screwd" revision="o-caf" />
+  <project path="hardware/libhardware" name="hardware_libhardware" remote="screwd" revision="o-caf" />
+  <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="screwd" revision="o-caf" />
+    
+  <project path="hardware/qcom/audio/default" name="hardware_qcom_audio" remote="screwd" revision="o-caf" />
+  <project path="hardware/qcom/audio-caf/msm8974" name="hardware_qcom_audio" remote="screwd" revision="o-caf-8974" />  
+  <project path="hardware/qcom/audio-caf/msm8996" name="hardware_qcom_audio" remote="screwd" revision="o-caf-8996" />
+  <project path="hardware/qcom/audio-caf/msm8998" name="hardware_qcom_audio" remote="screwd" revision="o-caf-8998" />
+  <project path="hardware/qcom/bt" name="hardware_qcom_bt" remote="screwd" revision="o" />
+  <project path="hardware/qcom/display" name="hardware_qcom_display" remote="screwd" revision="o-caf" />
+  <project path="hardware/qcom/display-caf/msm8974" name="hardware_qcom_display" remote="screwd" revision="o-caf-8974" />
+  <project path="hardware/qcom/display-caf/msm8996" name="hardware_qcom_display" remote="screwd" revision="o-caf-8996" />
+  <project path="hardware/qcom/display-caf/msm8998" name="hardware_qcom_display" remote="screwd" revision="o-caf-8998" />
+  <project path="hardware/qcom/gps" name="hardware_qcom_gps" remote="screwd" revision="o-caf" />
+  <project path="hardware/qcom/keymaster" name="hardware_qcom_keymaster" remote="screwd" revision="o-caf" />
+  <project path="hardware/qcom/media" name="hardware_qcom_media" remote="screwd" revision="o-caf" />
+  <project path="hardware/qcom/media-caf/msm8974" name="hardware_qcom_media" remote="screwd" revision="o-caf-8974" />  
+  <project path="hardware/qcom/media-caf/msm8996" name="hardware_qcom_media" remote="screwd" revision="o-caf-8996" />
+  <project path="hardware/qcom/media-caf/msm8998" name="hardware_qcom_media" remote="screwd" revision="o-caf-8998" />
+  <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" remote="screwd" revision="o-caf" />
+
+  <project path="hardware/ril" name="hardware_ril" remote="screwd" revision="o-caf"/>
+
+  <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="screwd" revision="o" />
+  <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" remote="screwd" revision="o" />
+  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="screwd" revision="o" />
+  <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" remote="screwd" revision="o" />
+  <project path="packages/apps/ScrewShop" name="packages_apps_ScrewShop" remote="screwd" revision="o" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="screwd" revision="o" />
+
+  <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="screwd" revision="o"  />
+
+  <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="screwd" revision="o" />
+  <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="screwd" revision="o" />
+
+  <project path="packages/services/OmniJaws" name="packages_services_OmniJaws" remote="screwd" revision="o" />
+  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="screwd" revision="o" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="screwd" revision="o" />
+
+  <project path="system/bt" name="system_bt" remote="screwd" revision="o-caf" />
+  <project path="system/core" name="system_core" remote="screwd" revision="o-caf" />
+  <project path="system/media" name="system_media" remote="screwd" revision="o" />
+  <project path="system/nfc" name="system_nfc" remote="screwd" revision="o" />
+  <project path="system/sepolicy" name="system_sepolicy" remote="screwd" revision="o" />
+  <project path="system/qcom" name="system_qcom" remote="screwd" revision="o-caf" />
+  <project path="system/vold" name="system_vold" remote="screwd" revision="o-caf" />
+
+  
+  <project path="vendor/extras" name="vendor_extras" remote="screwd" revision="o" />
+  <project path="vendor/screwd" name="vendor_screwd" remote="screwd" revision="o" >
+     <copyfile src="build.sh" dest="rom-build.sh" />
+     <copyfile src="kernel_build.sh" dest="kernel-build.sh" />
+     <linkfile src="scripts/aosp-merge.sh" dest="aosp-merge.sh" />
+  </project>
+
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="vendor_qcom_opensource_cryptfs_hw" remote="screwd" revision="o-caf" />
+  <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" remote="screwd" revision="o-caf" />
+
+</manifest>
