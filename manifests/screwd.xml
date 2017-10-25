@@ -55,6 +55,7 @@
   <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" remote="screwd" revision="o" />
   <project path="packages/apps/ScrewShop" name="packages_apps_ScrewShop" remote="screwd" revision="o" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="screwd" revision="o" />
+  <project path="packages/apps/SlimRecents" name="packages_apps_SlimRecents" remote="screwd" revision="o" />
 
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="screwd" revision="o"  />
 
