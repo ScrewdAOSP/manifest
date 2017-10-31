@@ -32,9 +32,6 @@
   <project path="bootable/recovery" name="bootable_recovery" remote="screwd" revision="o" />
   <project path="bionic" name="bionic" remote="screwd" revision="o-caf"/>
 
-  <project path="device/oneplus/cheeseburger" name="device_oneplus_cheeseburger" remote="screwd" revision="o-caf" />
-  <project path="device/oneplus/oneplus3" name="device_oneplus_oneplus3" remote="screwd" revision="o-caf" />
-
   <project path="device/qcom/common" name="device_qcom_common" remote="screwd" revision="o-caf" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="screwd" revision="o-caf" />
 
