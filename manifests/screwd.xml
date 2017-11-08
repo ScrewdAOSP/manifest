@@ -79,7 +79,6 @@
   <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" remote="screwd" revision="o" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="screwd" revision="o" />
   <project path="packages/apps/OmniStyle" name="packages_apps_OmniStyle" remote="screwd" revision="o" />
-  <project path="packages/apps/OmniSwitch" name="packages_apps_OmniSwitch" remote="screwd" revision="o" />
   <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" remote="screwd" revision="o" />
   <project path="packages/apps/ScrewShop" name="packages_apps_ScrewShop" remote="screwd" revision="o" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="screwd" revision="o" />
