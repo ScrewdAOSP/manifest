@@ -35,6 +35,7 @@
   <project path="device/qcom/common" name="device_qcom_common" remote="screwd" revision="o-caf" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="screwd" revision="o-caf" />
 
+  <project path="external/DUtils" name="external_DUtils" remote="screwd" revision="o" />
   <project path="external/ebtables" name="external_ebtables" remote="screwd" revision="o-caf" />
   <project path="external/fuse" name="external_fuse" remote="screwd" revision="o-caf" />
   <project path="external/htop" name="external_htop" remote="screwd" revision="o-caf" />
@@ -76,6 +77,7 @@
   <project path="hardware/ril" name="hardware_ril" remote="screwd" revision="o-caf"/>
 
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="screwd" revision="o" />
+  <project path="packages/apps/DUI" name="packages_apps_DUI" remote="screwd" revision="o" />
   <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" remote="screwd" revision="o" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="screwd" revision="o" />
   <project path="packages/apps/OmniStyle" name="packages_apps_OmniStyle" remote="screwd" revision="o" />
