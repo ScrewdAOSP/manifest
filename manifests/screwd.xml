@@ -12,9 +12,9 @@
            fetch="https://github.com/ScrewdAOSP" />
 
   <!-- Screw'd Repos -->
-  <project path="manifest" name="manifest" remote="screwd" revision="o" />
+  <project path="manifest" name="manifest" remote="screwd" revision="o8x" />
 
-  <project path="build/make" name="build" remote="screwd" revision="o" >
+  <project path="build/make" name="build" remote="screwd" revision="o8x" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -24,57 +24,57 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
 
-  <project path="build/kati" name="build_kati" remote="screwd" revision="o" />
-  <project path="build/soong" name="build_soong" remote="screwd" revision="o" >
+  <project path="build/kati" name="build_kati" remote="screwd" revision="o8x" />
+  <project path="build/soong" name="build_soong" remote="screwd" revision="o8x" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-  <project path="bootable/recovery" name="bootable_recovery" remote="screwd" revision="o" />
-  <project path="bionic" name="bionic" remote="screwd" revision="o"/>
+  <project path="bootable/recovery" name="bootable_recovery" remote="screwd" revision="o8x" />
+  <project path="bionic" name="bionic" remote="screwd" revision="o8x"/>
 
-  <project path="external/DUtils" name="external_DUtils" remote="screwd" revision="o" />
+  <project path="external/DUtils" name="external_DUtils" remote="screwd" revision="o8x" />
   
-  <project path="frameworks/av" name="frameworks_av" remote="screwd" revision="o" />
-  <project path="frameworks/base" name="frameworks_base" remote="screwd" revision="o" />
-  <project path="frameworks/native" name="frameworks_native" remote="screwd" revision="o" />
-  <project path="frameworks/support" name="frameworks_support" remote="screwd" revision="o" />
+  <project path="frameworks/av" name="frameworks_av" remote="screwd" revision="o8x" />
+  <project path="frameworks/base" name="frameworks_base" remote="screwd" revision="o8x" />
+  <project path="frameworks/native" name="frameworks_native" remote="screwd" revision="o8x" />
+  <project path="frameworks/support" name="frameworks_support" remote="screwd" revision="o8x" />
  
-  <project path="hardware/interfaces" name="hardware_interfaces" remote="screwd" revision="o" />
-  <project path="hardware/ril" name="hardware_ril" remote="screwd" revision="o" />
-  <project path="hardware/qcom/audio" name="hardware_qcom_audio" remote="screwd" revision="o" />
-  <project path="hardware/qcom/bt" name="hardware_qcom_bt" remote="screwd" revision="o" />
-  <project path="hardware/qcom/display" name="hardware_qcom_display" remote="screwd" revision="o" />
-  <project path="hardware/qcom/gps" name="hardware_qcom_gps" remote="screwd" revision="o" />
-  <project path="hardware/qcom/keymaster" name="hardware_qcom_keymaster" remote="screwd" revision="o" />
-  <project path="hardware/qcom/media" name="hardware_qcom_media" remote="screwd" revision="o" />
-  <project path="hardware/qcom/msm8x74" name="hardware_qcom_msm8x74" remote="screwd" revision="o" />
+  <project path="hardware/interfaces" name="hardware_interfaces" remote="screwd" revision="o8x" />
+  <project path="hardware/ril" name="hardware_ril" remote="screwd" revision="o8x" />
+  <project path="hardware/qcom/audio" name="hardware_qcom_audio" remote="screwd" revision="o8x" />
+  <project path="hardware/qcom/bt" name="hardware_qcom_bt" remote="screwd" revision="o8x" />
+  <project path="hardware/qcom/display" name="hardware_qcom_display" remote="screwd" revision="o8x" />
+  <project path="hardware/qcom/gps" name="hardware_qcom_gps" remote="screwd" revision="o8x" />
+  <project path="hardware/qcom/keymaster" name="hardware_qcom_keymaster" remote="screwd" revision="o8x" />
+  <project path="hardware/qcom/media" name="hardware_qcom_media" remote="screwd" revision="o8x" />
+  <project path="hardware/qcom/msm8x74" name="hardware_qcom_msm8x74" remote="screwd" revision="o8x" />
 
-  <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="screwd" revision="o" />
-  <project path="packages/apps/DUI" name="packages_apps_DUI" remote="screwd" revision="o" />
-  <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" remote="screwd" revision="o" />
-  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="screwd" revision="o" />
-  <project path="packages/apps/OmniStyle" name="packages_apps_OmniStyle" remote="screwd" revision="o" />
-  <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" remote="screwd" revision="o" />
-  <project path="packages/apps/ScrewShop" name="packages_apps_ScrewShop" remote="screwd" revision="o" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="screwd" revision="o" />
-  <project path="packages/apps/SlimRecents" name="packages_apps_SlimRecents" remote="screwd" revision="o" />
+  <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="screwd" revision="o8x" />
+  <project path="packages/apps/DUI" name="packages_apps_DUI" remote="screwd" revision="o8x" />
+  <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" remote="screwd" revision="o8x" />
+  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="screwd" revision="o8x" />
+  <project path="packages/apps/OmniStyle" name="packages_apps_OmniStyle" remote="screwd" revision="o8x" />
+  <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" remote="screwd" revision="o8x" />
+  <project path="packages/apps/ScrewShop" name="packages_apps_ScrewShop" remote="screwd" revision="o8x" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="screwd" revision="o8x" />
+  <project path="packages/apps/SlimRecents" name="packages_apps_SlimRecents" remote="screwd" revision="o8x" />
 
-  <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="screwd" revision="o"  />
+  <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="screwd" revision="o8x"  />
 
-  <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="screwd" revision="o" />
-  <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="screwd" revision="o" />
+  <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="screwd" revision="o8x" />
+  <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="screwd" revision="o8x" />
 
-  <project path="packages/services/OmniJaws" name="packages_services_OmniJaws" remote="screwd" revision="o" />
-  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="screwd" revision="o" />
-  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="screwd" revision="o" />
+  <project path="packages/services/OmniJaws" name="packages_services_OmniJaws" remote="screwd" revision="o8x" />
+  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="screwd" revision="o8x" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="screwd" revision="o8x" />
 
-  <project path="system/core" name="system_core" remote="screwd" revision="o" />
-  <project path="system/media" name="system_media" remote="screwd" revision="o" />
-  <project path="system/nfc" name="system_nfc" remote="screwd" revision="o" />
-  <project path="system/sepolicy" name="system_sepolicy" remote="screwd" revision="o" />
+  <project path="system/core" name="system_core" remote="screwd" revision="o8x" />
+  <project path="system/media" name="system_media" remote="screwd" revision="o8x" />
+  <project path="system/nfc" name="system_nfc" remote="screwd" revision="o8x" />
+  <project path="system/sepolicy" name="system_sepolicy" remote="screwd" revision="o8x" />
   
-  <project path="vendor/extras" name="vendor_extras" remote="screwd" revision="o" />
-  <project path="vendor/screwd" name="vendor_screwd" remote="screwd" revision="o" >
+  <project path="vendor/extras" name="vendor_extras" remote="screwd" revision="o8x" />
+  <project path="vendor/screwd" name="vendor_screwd" remote="screwd" revision="o8x" >
      <copyfile src="build.sh" dest="rom-build.sh" />
      <copyfile src="kernel_build.sh" dest="kernel-build.sh" />
      <linkfile src="scripts/aosp-merge.sh" dest="aosp-merge.sh" />

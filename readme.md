@@ -29,7 +29,7 @@ $ cd WORKSPACE
 
 # Install Repo in the created directory
 # If you are building for Nexus/Pixel devices, use the o branch by running.
-$ repo init -u https://github.com/ScrewdAOSP/manifest -b o
+$ repo init -u https://github.com/ScrewdAOSP/manifest -b o8x
 ```
 
 ### Downloading the source tree ###
