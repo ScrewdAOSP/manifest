@@ -18,6 +18,7 @@
   <remove-project name="device/generic/mini-emulator-x86" />
   <remove-project name="device/generic/mini-emulator-x86_64" />
   <remove-project name="device/generic/qemu" />
+  <remove-project name="device/generic/uml" />
   <remove-project name="device/generic/x86" />
   <remove-project name="device/generic/x86_64" />
   <remove-project name="device/google/accessory/arduino" />
@@ -28,6 +29,8 @@
   <remove-project name="device/google/dragon-kernel" />
   <remove-project name="device/google/marlin" />
   <remove-project name="device/google/marlin-kernel" />
+  <remove-project name="device/google/muskie" />
+  <remove-project name="device/google/taimen" />
   <remove-project name="device/google/vrservices" />
   <remove-project name="device/huawei/angler" />
   <remove-project name="device/huawei/angler-kernel" />
