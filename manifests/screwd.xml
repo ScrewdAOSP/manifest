@@ -15,7 +15,7 @@
            fetch="https://github.com/MrApocalypse" />
 
   <!-- Screw'd Repos -->
-  <project path="manifest" name="manifest" remote="private" revision="o8x" />
+  <project path="manifest" name="manifest" remote="screwd" revision="o8x" />
 
   <project path="build/make" name="build" remote="screwd" revision="o8x" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -38,7 +38,7 @@
   <project path="external/DUtils" name="external_DUtils" remote="screwd" revision="o8x" />
   
   <project path="frameworks/av" name="frameworks_av" remote="screwd" revision="o8x" />
-  <project path="frameworks/base" name="frameworks_base" remote="private" revision="o8x" />
+  <project path="frameworks/base" name="frameworks_base" remote="screwd" revision="o8x" />
   <project path="frameworks/native" name="frameworks_native" remote="screwd" revision="o8x" />
   <project path="frameworks/support" name="frameworks_support" remote="screwd" revision="o8x" />
  
@@ -57,7 +57,7 @@
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="screwd" revision="o8x" />
   <project path="packages/apps/OmniStyle" name="packages_apps_OmniStyle" remote="screwd" revision="o8x" />
   <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" remote="screwd" revision="o8x" />
-  <project path="packages/apps/ScrewShop" name="packages_apps_ScrewShop" remote="private" revision="o8x" />
+  <project path="packages/apps/ScrewShop" name="packages_apps_ScrewShop" remote="screwd" revision="o8x" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="screwd" revision="o8x" />
   <project path="packages/apps/SlimRecents" name="packages_apps_SlimRecents" remote="screwd" revision="o8x" />
 
