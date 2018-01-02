@@ -71,11 +71,13 @@
   <remove-project name="platform/hardware/intel/sensors" />
   <remove-project name="platform/hardware/qcom/audio" />
   <remove-project name="platform/hardware/qcom/bt" />
+  <remove-project name="platform/hardware/qcom/data/ipacfg-mgr" />
   <remove-project name="platform/hardware/qcom/display" />
   <remove-project name="platform/hardware/qcom/gps" />
   <remove-project name="platform/hardware/qcom/keymaster" />
   <remove-project name="platform/hardware/qcom/media" />
   <remove-project name="platform/hardware/qcom/msm8x84" />
+  <remove-project name="platform/hardware/qcom/msm8998" />
   <remove-project name="platform/hardware/interfaces" />
   <remove-project name="platform/hardware/ril" />
   <remove-project name="platform/packages/apps/Calendar" />
