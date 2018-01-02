@@ -18,7 +18,7 @@
            fetch="https://source.codeaurora.org/" />
 
   <!-- Screw'd Repos -->
-  <project path="manifest" name="manifest" remote="screwd" revision="o8x" />
+  <project path="manifest" name="manifest" remote="private" revision="o8x-caf" />
 
   <project path="build/make" name="build" remote="screwd" revision="o8x" >
     <copyfile src="core/root.mk" dest="Makefile" />
