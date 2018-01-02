@@ -95,7 +95,7 @@
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="screwd" revision="o8x" />
 
   <project path="system/core" name="system_core" remote="screwd" revision="o8x-caf" />
-  <project path="system/hwservicemanager" name="system_hwservicemanager" rremote="screwd" revision="o8x-caf" />
+  <project path="system/hwservicemanager" name="system_hwservicemanager" remote="screwd" revision="o8x-caf" />
   <project path="system/libhidl" name="system_libhidl" remote="screwd" revision="o8x-caf" />
   <project path="system/media" name="system_media" remote="screwd" revision="o8x" />
   <project path="system/nfc" name="system_nfc" remote="screwd" revision="o8x-caf" />
