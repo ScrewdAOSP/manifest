@@ -28,8 +28,8 @@ $ mkdir WORKSPACE
 $ cd WORKSPACE
 
 # Install Repo in the created directory
-# If you are building for Nexus/Pixel devices, use the o branch by running.
-$ repo init -u https://github.com/ScrewdAOSP/manifest -b o8x
+# If you are building for non-Nexus devices, use the o8x-caf branch by running.
+$ repo init -u https://github.com/ScrewdAOSP/manifest -b o8x-caf
 ```
 
 ### Downloading the source tree ###
@@ -47,15 +47,15 @@ $ repo sync -j4
 
 The bundled builder tool `./rom-build.sh`handles all the building steps for 
 the specified device automatically. As the device value, you just feed it with the device codename 
-(for example, 'angler' for the Nexus 6p).
+(for example, 'cheeseburger' for the OnePlus 5).
 
 ```bash
 # Go to the root of the source tree...
 $ cd WORKSPACE
 # ...and run the builder tool.
 $ ./rom-build.sh DEVICE
-# So if you want to build for the Nexus 6p, run:
-$ ./rom-build.sh angler
+# So if you want to build for the OnePlus 5, run:
+$ ./rom-build.sh cheeseburger
 ```
 
 If all goes well, you will see a message showing where the completed build is located.

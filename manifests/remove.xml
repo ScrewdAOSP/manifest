@@ -47,10 +47,14 @@
   <remove-project name="platform/build" />
   <remove-project name="platform/build/kati" />
   <remove-project name="platform/build/soong" />
+  <remove-project name="platform/external/selinux" />
+  <remove-project name="platform/external/tinycompress" />
+  <remove-project name="platform/external/toybox" />
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/native" />
   <remove-project name="platform/frameworks/support" />
+  <remove-project name="platform/hardware/libhardware" />
   <remove-project name="platform/hardware/intel/audio_media" />
   <remove-project name="platform/hardware/intel/bootstub" />
   <remove-project name="platform/hardware/intel/common/bd_prov" />
@@ -71,6 +75,7 @@
   <remove-project name="platform/hardware/qcom/gps" />
   <remove-project name="platform/hardware/qcom/keymaster" />
   <remove-project name="platform/hardware/qcom/media" />
+  <remove-project name="platform/hardware/qcom/msm8x84" />
   <remove-project name="platform/hardware/interfaces" />
   <remove-project name="platform/hardware/ril" />
   <remove-project name="platform/packages/apps/Calendar" />
@@ -103,6 +108,8 @@
   <remove-project name="platform/prebuilts/gdb/darwin-x86" />
   <remove-project name="platform/prebuilts/go/darwin-x86" />
   <remove-project name="platform/system/core" />
+  <remove-project name="platform/system/hwservicemanager" />
+  <remove-project name="platform/system/libhidl" />
   <remove-project name="platform/system/media" />
   <remove-project name="platform/system/nfc" />
   <remove-project name="platform/system/sepolicy" />
