@@ -56,6 +56,8 @@
   <project path="frameworks/av" name="frameworks_av" remote="screwd" revision="o8x-caf" />
   <project path="frameworks/base" name="frameworks_base" remote="screwd" revision="o8x" />
   <project path="frameworks/native" name="frameworks_native" remote="screwd" revision="o8x" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="screwd" revision="o8x-caf" />
+  <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="screwd" revision="o8x-caf" />
   <project path="frameworks/support" name="frameworks_support" remote="screwd" revision="o8x" />
  
   <project path="hardware/interfaces" name="hardware_interfaces" remote="screwd" revision="o8x" />
@@ -82,6 +84,7 @@
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="screwd" revision="o8x" />
   <project path="packages/apps/OmniStyle" name="packages_apps_OmniStyle" remote="screwd" revision="o8x" />
   <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" remote="screwd" revision="o8x" />
+  <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="screwd" revision="o8x-caf" />
   <project path="packages/apps/ScrewShop" name="packages_apps_ScrewShop" remote="screwd" revision="o8x" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="screwd" revision="o8x" />
   <project path="packages/apps/SlimRecents" name="packages_apps_SlimRecents" remote="screwd" revision="o8x" />
@@ -92,8 +95,8 @@
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="screwd" revision="o8x" />
 
   <project path="packages/services/OmniJaws" name="packages_services_OmniJaws" remote="screwd" revision="o8x" />
-  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="screwd" revision="o8x" />
-  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="screwd" revision="o8x" />
+  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="screwd" revision="o8x-caf" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="screwd" revision="o8x-caf" />
 
   <project path="system/core" name="system_core" remote="screwd" revision="o8x-caf" />
   <project path="system/hwservicemanager" name="system_hwservicemanager" remote="screwd" revision="o8x-caf" />
@@ -103,7 +106,7 @@
   <project path="system/sepolicy" name="system_sepolicy" remote="screwd" revision="o8x" />
   <project path="system/vold" name="system_vold" remote="screwd" revision="o8x-caf" />
   
-  <project path="vendor/codeaurora/telephony" name="quic/la/platform/vendor/codeaurora/telephony" remote="codeaurora" revision="atel.lnx.2.9.1.r5-rel" />
+  <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="screwd" revision="o8x-caf" />
   <project path="vendor/extras" name="vendor_extras" remote="screwd" revision="o8x" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="vendor_qcom_opensource_cryptfs_hw" remote="screwd" revision="o8x-caf" />
   <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" remote="screwd" revision="o8x-caf" />
