@@ -54,7 +54,7 @@
   <project path="external/toybox" name="quic/la/platform/external/toybox" remote="codeaurora" revision="aosp-new/oreo-mr1-release" />
   
   <project path="frameworks/av" name="frameworks_av" remote="screwd" revision="o8x-caf" />
-  <project path="frameworks/base" name="frameworks_base" remote="screwd" revision="o8x-caf" />
+  <project path="frameworks/base" name="frameworks_base" remote="screwd" revision="o8x" />
   <project path="frameworks/native" name="frameworks_native" remote="screwd" revision="o8x" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="screwd" revision="o8x-caf" />
   <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="screwd" revision="o8x-caf" />
