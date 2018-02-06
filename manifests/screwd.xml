@@ -124,7 +124,7 @@
   <project path="vendor/screwd" name="vendor_screwd" remote="screwd" revision="o8x" >
      <copyfile src="build.sh" dest="rom-build.sh" />
      <copyfile src="kernel_build.sh" dest="kernel-build.sh" />
-     <linkfile src="scripts/aosp-merge.sh" dest="aosp-merge.sh" />
+     <linkfile src="scripts/caf-merge.sh" dest="caf-merge.sh" />
   </project>
 
 </manifest>
