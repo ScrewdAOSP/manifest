@@ -67,6 +67,7 @@
   <project path="hardware/qcom/audio/default" name="hardware_qcom_audio" remote="screwd" revision="o8x-caf" />
   <project path="hardware/qcom/audio-caf/msm8996" name="hardware_qcom_audio" remote="screwd" revision="o8x-caf-8996" />
   <project path="hardware/qcom/audio-caf/msm8998" name="hardware_qcom_audio" remote="screwd" revision="o8x-caf-8998" />
+  <project path="hardware/qcom/bootctrl" name="hardware_qcom_bootctrl" remote="screwd" revision="o8x-caf" />
   <project path="hardware/qcom/bt" name="hardware_qcom_bt" remote="screwd" revision="o8x-caf" />
   <project path="hardware/qcom/camera" name="hardware_qcom_camera" remote="screwd" revision="o8x-caf" />
   <project path="hardware/qcom/display" name="hardware_qcom_display" remote="screwd" revision="o8x-caf" />
@@ -82,6 +83,7 @@
   <project path="hardware/qcom/msm8x84" name="hardware_qcom_msm8x84" remote="screwd" revision="o8x-caf" />
   <project path="hardware/qcom/power" name="hardware_qcom_power" remote="screwd" revision="o8x-caf" />
 
+  <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="screwd" revision="o8x" />
   <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="screwd" revision="o8x" />
   <project path="packages/apps/CellBroadcastReceiver" name="packages_apps_CellBroadcastReceiver" remote="screwd" revision="o8x" />
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="screwd" revision="o8x" />
