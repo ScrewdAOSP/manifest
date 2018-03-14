@@ -56,6 +56,7 @@
   <remove-project name="platform/frameworks/opt/net/ims" />
   <remove-project name="platform/frameworks/opt/telephony" />
   <remove-project name="platform/frameworks/support" />
+  <remove-project name="platform/hardware/broadcom/wlan" />
   <remove-project name="platform/hardware/intel/audio_media" />
   <remove-project name="platform/hardware/intel/bootstub" />
   <remove-project name="platform/hardware/intel/common/bd_prov" />

@@ -44,6 +44,7 @@
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="screwd" revision="o8x" />
   <project path="frameworks/support" name="frameworks_support" remote="screwd" revision="o8x" />
  
+  <project path="hardware/broadcom/wlan" name="hardware_broadcom_wlan" remote="screwd" revision="o8x" />
   <project path="hardware/interfaces" name="hardware_interfaces" remote="screwd" revision="o8x" />
   <project path="hardware/ril" name="hardware_ril" remote="screwd" revision="o8x" />
   <project path="hardware/qcom/audio" name="hardware_qcom_audio" remote="screwd" revision="o8x" />
