@@ -41,6 +41,7 @@
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="screwd" revision="o8x-caf" />
 
   <project path="external/brctl" name="quic/la/platform/external/brctl" remote="codeaurora" revision="LA.AF.1.2.1_rb1.27" />
+  <project path="external/clang" name="external_clang" remote="screwd" revision="o8x" />
   <project path="external/ebtables" name="external_ebtables" remote="screwd" revision="o8x-caf" />
   <project path="external/DUtils" name="external_DUtils" remote="screwd" revision="o8x" />
   <project path="external/fuse" name="external_fuse" remote="screwd" revision="o8x-caf" />
